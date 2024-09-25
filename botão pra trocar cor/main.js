@@ -18,7 +18,7 @@ function changeColor(){
 }
 // TROCAR COR DO FUNDO
 function changeBackgroundColor(){
-    let colors = ["red", "green", "yellow", "orange"]
+    let colors = ["red", "green", "yellow", "orange", "antiquewhite", "white", "gray"]
     let randomColor = colors[Math.floor(Math.random() * colors.length)];
     document.body.style.backgroundColor = randomColor
 }
