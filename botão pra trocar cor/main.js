@@ -10,9 +10,15 @@ function sum(num1, num2){
 }
 let result = sum(10, 20)
 console.log(result) */
+
 // TROCAR COR DO TEXTO
 function changeColor(){
     let tittleH1 = document.getElementById("changeh1")
     tittleH1.style.color = "red"
 }
 // TROCAR COR DO FUNDO
+function changeBackgroundColor(){
+    let colors = ["red", "green", "yellow", "orange"]
+    let randomColor = colors[Math.floor(Math.random() * colors.length)];
+    document.body.style.backgroundColor = randomColor
+}
