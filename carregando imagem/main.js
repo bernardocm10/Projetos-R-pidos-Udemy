@@ -1,10 +1,7 @@
 const images = [
-     "images/A_small_cup_of_coffee.JPG",
-    "images/cafezap.jpeg",
-    "images/Latte_and_dark_coffee.jpg" 
-/*     "images/images_1",
-    "images/images_2",
-    "images/images_3" */
+    "images/1.JPG",
+    "images/2.jpeg",
+    "images/3.jpg" 
 ]
 let currentIndex = 0
 
